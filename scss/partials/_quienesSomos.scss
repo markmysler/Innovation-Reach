@@ -1,0 +1,34 @@
+@import "../variables";
+
+.padreQuienesSomos{
+    width: 100%;
+    background-color: #175092;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .quienesSomos{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 25vw;
+        h2{
+            text-align: center;
+            font-size: 30px;
+        }
+        .textoQuienesSomos{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            height: 12vw;
+            p{
+                border: 1px solid white;
+                padding: 1%;
+                border-radius: 10px;
+                width: 80%;
+                text-align: center;
+                font-size: larger;
+            }
+        }
+    }
+}

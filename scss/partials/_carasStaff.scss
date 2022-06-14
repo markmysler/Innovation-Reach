@@ -1,0 +1,26 @@
+.padreCarasStaff{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #175092;
+    height: 25vw;
+    .carasStaff{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        .cara{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            height: 17vw;
+            img{
+                height: 12vw;
+                padding: 2%;
+            }
+            h3{
+                text-align: center;
+            }
+        }
+    }
+}

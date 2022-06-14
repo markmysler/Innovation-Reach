@@ -1,0 +1,40 @@
+.tarjetasInicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    .tarjeta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #175092;
+        width: 15%;
+        height: 30vw;
+        margin: 1%;
+        text-align: center;
+        padding: 2%;
+        h2{
+            margin-bottom: 10%;
+            height: 1rem;
+        }
+        .textoTarjetas{
+            font-size: medium;
+            height: 25vw;
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        a{
+            margin-top: 1%;
+            align-self: bottom;
+            text-decoration: none;
+            color: white;
+            background-color: #008FEB;
+            width: fit-content;
+            padding: 3%;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import "variables.scss";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/titulos";
+@import "partials/tarjetasInicio";
+@import "partials/inspirarALaAccion";
+@import "partials/proyectosCompartidosCon";
+@import "partials/explorarContenidoInicio";
+@import "partials/repositorioContenido";
+@import "partials/gridCategoriasExplorar";
+@import "partials/publicacionDestacadaExplorar";
+@import "partials/quienesSomos";
+@import "partials/carasStaff";
+@import "partials/publicacionesRecomendadas";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Ubuntu', sans-serif;
+}
+main{
+    background-color: #0072D4;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+}

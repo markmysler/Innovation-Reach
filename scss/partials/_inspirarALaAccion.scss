@@ -1,0 +1,28 @@
+.inspirarALaAccion{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25rem;
+    margin-top: 1%;
+    justify-content: space-evenly;
+    h2{
+        margin-bottom: 1%;
+        font-size: 35px;
+    }
+    p{
+        margin-bottom: 1%;
+        width: 60%;
+        font-size: 1.2rem;
+    }
+    a{
+        align-self: bottom;
+        text-decoration: none;
+        color: white;
+        background-color: #175092;
+        width: fit-content;
+        padding: 1%;
+    }
+}
