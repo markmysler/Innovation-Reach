@@ -216,17 +216,22 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .padreExplorarContenidoInicio .explorarContenidoInicio .botonExplorar {
-      height: 5vw;
+    .padreExplorarContenidoInicio .explorarContenidoInicio a {
       width: 60%;
-      background-color: #175092;
-      margin: 1%;
       display: flex;
-      align-items: center;
-      justify-content: center; }
-      .padreExplorarContenidoInicio .explorarContenidoInicio .botonExplorar h2 {
-        text-align: center;
-        color: white; }
+      justify-content: center;
+      align-items: center; }
+      .padreExplorarContenidoInicio .explorarContenidoInicio a .botonExplorar {
+        height: 5vw;
+        width: 100%;
+        background-color: #175092;
+        margin: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .padreExplorarContenidoInicio .explorarContenidoInicio a .botonExplorar h2 {
+          text-align: center;
+          color: white; }
 
 .inspiracion {
   display: flex;
@@ -243,7 +248,7 @@ footer {
     font-size: 1.2rem;
     width: 40%;
     text-align: center;
-    padding: 1%; }
+    padding-top: 2%; }
 
 .padreAreaContenido {
   width: 100%;
@@ -255,7 +260,7 @@ footer {
   padding-bottom: 2%; }
   .padreAreaContenido .tituloPagina {
     color: white;
-    padding: 2%;
+    padding-top: 2%;
     font-size: 30px; }
   .padreAreaContenido .areaContenido {
     width: 95%;
@@ -269,7 +274,7 @@ footer {
 
 .tarjetaContenido {
   width: 20vw;
-  height: 32vw;
+  height: 28vw;
   border: 4px solid #0072D4;
   background-color: white;
   border-radius: 10px;
@@ -311,104 +316,6 @@ footer {
     text-align: center;
     color: white;
     background-color: #0072D4; }
-
-.categoriaTarjeta {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%; }
-
-.categorias {
-  width: 2vw;
-  height: 2vw;
-  border-radius: 5px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-  border: 2px solid black; }
-  .categorias .categoriaVentas {
-    width: 100%;
-    height: 100%;
-    background-color: green;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-emphasis: bold; }
-  .categorias .categoriaSeguros {
-    width: 100%;
-    height: 100%;
-    background-color: #005B96;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-emphasis: bold; }
-  .categorias .categoriaEquipos {
-    width: 100%;
-    height: 100%;
-    background-color: orange;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-emphasis: bold; }
-  .categorias .categoriaInnovacion {
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-emphasis: bold; }
-
-.guiaCategorias {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 40vw;
-  border: 2px solid white;
-  align-items: center; }
-  .guiaCategorias h3 {
-    width: 10vw;
-    text-align: center; }
-  .guiaCategorias .categorias {
-    width: 6vw; }
-
-.categoriaInactiva {
-  opacity: 0.3; }
-
-.guiaCategoriasInactivas {
-  width: 40vw;
-  border: 2px solid white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center; }
-  .guiaCategoriasInactivas .categorias {
-    width: 6vw; }
-  .guiaCategoriasInactivas h3 {
-    font-size: medium; }
-  .guiaCategoriasInactivas .explicacionCategoriasActivas {
-    font-size: small; }
-
-.ejemplosCategoria {
-  display: flex;
-  justify-content: space-evenly;
-  width: 80%; }
-  .ejemplosCategoria .categorias {
-    width: 5vw;
-    height: 1.5vw;
-    font-size: medium; }
-
-.padreGuiaCategorias {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  height: 6vw; }
 
 .categoriasExplorar {
   display: grid;
@@ -575,7 +482,8 @@ footer {
 * {
   margin: 0%;
   padding: 0%;
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none; }
 
 main {
   background-color: #0072D4;
