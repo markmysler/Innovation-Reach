@@ -15,11 +15,13 @@ header {
         text-decoration: none;
         width: fit-content; }
         header nav ul a li {
+          width: 16rem;
           list-style: none;
           text-align: center;
           color: white;
-          font-size: 1.25rem;
-          font-family: 'Ubuntu', sans-serif; }
+          font-size: 1.2rem;
+          font-family: 'Ubuntu', sans-serif;
+          padding: 1%; }
     header nav a {
       width: 15%; }
       header nav a img {
@@ -180,7 +182,7 @@ footer {
 
 .padreProyectosCompartidosCon {
   width: 100%;
-  height: 32vw;
+  height: 40vw;
   display: flex;
   justify-content: center;
   background-color: white;
@@ -207,11 +209,13 @@ footer {
 
 .padreExplorarContenidoInicio {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%; }
   .padreExplorarContenidoInicio .explorarContenidoInicio {
     width: 100%;
-    background-color: white;
-    color: black;
+    background-color: #175092;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,11 +228,12 @@ footer {
       .padreExplorarContenidoInicio .explorarContenidoInicio a .botonExplorar {
         height: 5vw;
         width: 100%;
-        background-color: #175092;
+        background-color: #0072D4;
         margin: 1%;
         display: flex;
         align-items: center;
-        justify-content: center; }
+        justify-content: center;
+        border-radius: 5px; }
         .padreExplorarContenidoInicio .explorarContenidoInicio a .botonExplorar h2 {
           text-align: center;
           color: white; }
@@ -440,20 +445,26 @@ footer {
         text-align: center; }
 
 .padrePublicacionesRecomendadas {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: #175092;
   flex-direction: column;
-  height: 60vw; }
+  height: 60vw;
+  border: 2px solid white;
+  border-radius: 5px;
+  align-self: center;
+  margin-top: 2%;
+  margin-bottom: 2%; }
   .padrePublicacionesRecomendadas .publicacionesRecomendadas {
-    width: 90%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 0.8fr);
+    grid-template-rows: repeat(2, 0.8fr);
     grid-column-gap: 15px;
-    grid-row-gap: 15px; }
+    grid-row-gap: 15px;
+    justify-items: center; }
     .padrePublicacionesRecomendadas .publicacionesRecomendadas .div1 {
       grid-area: 1 / 1 / 2 / 2; }
     .padrePublicacionesRecomendadas .publicacionesRecomendadas .div2 {
@@ -475,9 +486,20 @@ footer {
       justify-content: center;
       align-items: center;
       border: 1px solid white;
-      border-radius: 5px; }
+      border-radius: 5px;
+      background-color: white;
+      width: 20vw; }
     .padrePublicacionesRecomendadas .publicacionesRecomendadas .imgPublicacion {
-      height: 15vw; }
+      height: 13vw;
+      justify-self: center; }
+
+.publicacionDestacadaExplorar {
+  width: 90%;
+  height: 30%;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  align-self: center; }
 
 * {
   margin: 0%;
@@ -488,4 +510,7 @@ footer {
 main {
   background-color: #0072D4;
   color: white;
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }

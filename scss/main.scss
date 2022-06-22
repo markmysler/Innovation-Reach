@@ -23,4 +23,7 @@ main{
     background-color: #0072D4;
     color: white;
     font-family:'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
